@@ -5,5 +5,5 @@ url: "https://urouge.me"
 paginate: 10
 markdown: kramdown
 permalink: /:title/
-disqus: urouge-dev
+disqus: urouge
 gems: [jekyll-paginate]
