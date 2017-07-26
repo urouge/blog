@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 多说评论迁移至Disqus
-description: 
+description: 将多说评论迁移至 Disqus 的原因大家都有体会，这里主要介绍迁移过程中遇到的问题和细节。
 tag: duoshuo,disqus
 ---
 

@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<div class="container" style="margin-top: -200px">
+<div class="container" style="margin-top: -200px; z-index: 1000">
   <div class="row">
     <div class="col s12 m8 offset-m2">
 
-    {% for post in paginator.posts limit: 20%}
-      <div class="card">
-        <div class="card-content">
-          <span class="card-title"><a href="{{ site.url }}{{ post.url }}" target="_blank">{{ post.title }}</a></span>
-          <p>{{ post.description }}</p>
-        </div>
-      </div>
+    {% for post in paginator.posts limit: 10%}
+      <ul class="collapsible popout" data-collapsible="expandable">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">event_note</i><a href="{{ post.url }}">{{ post.title }}</a></div>
+          <div class="collapsible-body blue-grey lighten-5" style="display: block;"><span>{{ post.description }}</span></div>
+        </li>
+      </ul>
     {% endfor %}
     </div>
   </div>

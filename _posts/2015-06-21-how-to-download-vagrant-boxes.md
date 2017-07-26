@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何下载Vagrant的Box
-description: 
+description: 使用 <a href="https://www.vagrantup.com/" target="_blank">Vagrant</a> 来管理虚拟机有相见恨晚的感觉，在安装自己喜欢的 box 的过程中相信大家都会对其缓慢的下载速度有很深刻的印象...
 tag: vagrant
 ---
 使用 [Vagrant](https://www.vagrantup.com/) 来管理虚拟机有相见恨晚的感觉，在安装自己喜欢的 box 的过程中相信大家都会对其缓慢的下载速度有很深刻的印象，掉过坑的人在下次安装的时候会选择先将box用迅雷或者其他方式下载到本地，再进行安装，这样的方式可以剩下大量的时间，在这里主要介绍如何下载box文件。

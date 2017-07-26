@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VirtualBox下挂载共享文件目录问题处理
-description: 使用Vagrant运行一个6.5版本的**CentOS**系统一直正常运行着，直到今天早上用**vagrant up**正常启动后，出现如下提示：
+description: 使用Vagrant运行一个6.5版本的<strong>CentOS</strong>系统一直正常运行着，直到今天早上用<strong>vagrant up</strong>正常启动后，出现如下提示：
 tag: vagrant,linux,centos,virtualbox
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Windows下修改 Vagrant Box 加载目录
+description: 由于是在C盘中，在一些配置不高的机子中用起Vagrant，磁盘容量会显得捉襟见肘，这时会考虑更改加载box的目录。
 tag: vagrant
 ---
 在Vagrant中添加box时，加载目录默认在 <em>~/.vagrant.d/</em>，具体的目录结构是<em>C:\Users\Your Username\\.vagrant.d\</em>,由于是在C盘中，在一些配置不高的机子中用起Vagrant，磁盘容量会显得捉襟见肘，这时会考虑更改加载box的目录。

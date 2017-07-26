@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Blade Template Command
+description: Learning these commands from <a href="http://laravel-recipes.com/recipes/248/knowing-all-the-blade-template-commands" target="_blank">laravel-recipes.com</a>
 tag: blade
 ---
 

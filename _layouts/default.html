@@ -15,8 +15,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
+      $(".collapsible")
+          .off('click')
+          .mouseenter(function() {
+              var li = $(this).children('li');
+              li.addClass('active');
+              li.children('div.collapsible-header').addClass('active');
+          })
+          .mouseleave(function() {
+              var li = $(this).children('li');
+              li.removeClass('active');
+              li.children('div.collapsible-header').removeClass('active');
+          });
       $(".button-collapse").sideNav();
-      $('.collapsible').collapsible();
     });
     </script>
   </body>
