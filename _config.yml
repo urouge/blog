@@ -1,0 +1,9 @@
+name: "Urouge"
+email: "uuurouge@gmail.com"
+description: "Urouge"
+url: "https://urouge.me"
+paginate: 10
+markdown: kramdown
+permalink: /:title/
+disqus: urouge-dev
+gems: [jekyll-paginate]

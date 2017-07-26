@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<!-- <div class="content">
+  <div id="post">
+    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <div class="strap">{{ page.date | date: "%b %d, %Y" }}</div>
+    {{ content }}
+  </div>
+  <div>
+  	{% include comments.md %}
+  </div>
+</div>
+ --><div class="container" style="margin-top: -200px">
+    <div class="row">
+        <div class="col s12 m8 offset-m2">
+            <center>
+                <h3>{{ page.title }}</h3>
+            </center>
+            <div class="card">
+                <div class="card-content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
