@@ -9,25 +9,31 @@
   </head>
   <body class="blue-grey lighten-5">
     {% include nav.html %}
-    {{ content }}
+    <div class="container" style="margin-top: -200px">
+      {{ content }}
+      {% include button.html %}
+    </div>
     {% include footer.html %}
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-      $(".collapsible")
+      $('.collapsible')
           .off('click')
-          .mouseenter(function() {
+          .hover(function() {
               var li = $(this).children('li');
-              li.addClass('active');
-              li.children('div.collapsible-header').addClass('active');
-          })
-          .mouseleave(function() {
-              var li = $(this).children('li');
-              li.removeClass('active');
-              li.children('div.collapsible-header').removeClass('active');
+              li.toggleClass('active');
+              li.children('div.collapsible-header').toggleClass('active');
           });
-      $(".button-collapse").sideNav();
+
+      $('.button-collapse').sideNav();
+
+      $('#back-to-top').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, 700)
+      });
     });
     </script>
   </body>
